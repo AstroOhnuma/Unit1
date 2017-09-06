@@ -4,5 +4,5 @@
 
 price = float(input('Enter the price of a meal: '))
 tip = float(input('Enter what % you would like to tip: '))
-print('You should tip',price*tip,'dollars')
+print('You should tip',round(price*tip/100,2),'dollars')
 
